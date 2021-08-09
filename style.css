@@ -106,16 +106,16 @@ ul {
 	margin: 5px;
 	width: 20px;
 	height: 20px;
-	line-height: 19px;
+	line-height: 20px;
 	border-radius: 50%;
-	border: 2px solid #fff;
+	border: 1px solid #fff;
 	/*  */
 }
 .slick-dots li button {
 	color: transparent;
 	width: 15px;
 	height: 15px;
-	line-height: 12px;
+	line-height: 11px;
 	border-radius: 50%;
 	background: #00e0d0;
 	opacity: 0;
@@ -125,10 +125,41 @@ ul {
 	opacity: 1;
 }
 button:focus {
-    outline: 0px dotted;
+	outline: 0px dotted;
 }
-		/* banner part (dots) end */
+/* banner part (dots) end */
 /* banner part css end */
+
+/* about part css start */
+.about {
+	padding: 70px 0px;
+}
+.about-text h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 28px;
+}
+.about-text p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	padding-bottom: 30px;
+	margin-bottom: 0 !important;
+}
+.about-text a {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #00e0d0;
+	border: 2px solid #00e0d0;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	margin-top: 10px;
+	display: inline-block;
+}
+/* about part css end */
 
 /* font-family: 'Hammersmith One', sans-serif;
 font-family: 'Playfair Display', serif;
