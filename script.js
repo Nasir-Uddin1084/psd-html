@@ -8,4 +8,9 @@ $(document).ready(function () {
 		dots: true,
 		autoplay: false,
 	});
+	// video-part
+	$('.venobox').venobox({
+		framewidth: '400px',
+		frameheight: '300px',
+	}); 
 });

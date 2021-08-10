@@ -14,7 +14,7 @@ ul {
 .navbar-custom {
 	position: fixed;
 	width: 100%;
-	z-index: 100;
+	z-index: 120;
 }
 .navbar-light .navbar-nav .nav-link {
 	color: #fff;
@@ -160,6 +160,48 @@ button:focus {
 	display: inline-block;
 }
 /* about part css end */
+/* video part css end */
+#video-part {
+	background: url(img/video_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+#video-part::after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(51, 39, 87, 0.5);
+}
+.video-text {
+	position: relative;
+	z-index: 105;
+	color: white;
+	padding: 200px 0px;
+}
+.video-text h5 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	padding-top: 34px;
+}
+.video-icon {
+	font-size: 36px;
+	color: #fff;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	padding-bottom: 34px;
+	text-align: center;
+	cursor: pointer;
+}
+/* video part css end */
 
 /* font-family: 'Hammersmith One', sans-serif;
 font-family: 'Playfair Display', serif;
