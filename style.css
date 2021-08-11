@@ -3,10 +3,10 @@ body {
 	padding: 0;
 	outline: 0;
 }
-a {
+a{
 	text-decoration: none;
 }
-ul {
+ul{
 	list-style: none;
 }
 /* code */
@@ -87,6 +87,7 @@ ul {
 	border: 2px solid #00e0d0;
 	text-transform: uppercase;
 	padding: 15px 30px;
+	text-decoration: none;
 }
 .banner-slide {
 	position: relative;
@@ -157,6 +158,7 @@ button:focus {
 	padding: 15px 30px;
 	margin-top: 10px;
 	display: inline-block;
+	text-decoration: none;
 }
 /* about part end */
 /* video css end */
@@ -220,22 +222,22 @@ button:focus {
 	position: relative;
 }
 .expertise-text p::after {
-    position: absolute;
-    content: '';
-    width: 50px;
-    height: 2px;
-    background: #c6c4c9;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 35px;
+	position: absolute;
+	content: '';
+	width: 50px;
+	height: 2px;
+	background: #c6c4c9;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 35px;
 }
-.expertise-icon{
+.expertise-icon {
 	padding-top: 80px;
 }
-.expertise-icon img{
+.expertise-icon img {
 	cursor: pointer;
 }
-.expertise-icon h3{
+.expertise-icon h3 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
@@ -245,7 +247,7 @@ button:focus {
 	margin: 0px !important;
 	text-transform: uppercase;
 }
-.expertise-icon p{
+.expertise-icon p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 300;
@@ -254,9 +256,125 @@ button:focus {
 	padding: 0px 53px;
 }
 /* expertise part end */
+/* team part start */
+#team-part {
+	background: url(img/team_bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 70px 0px;
+	position: relative;
+}
+#team-part::after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(24, 17, 58, 0.6);
+}
+.team {
+	position: relative;
+	z-index: 101;
+}
+.team-header {
+	padding-bottom: 65px;
+}
+.team-header h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+.team-header p {
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	position: relative;
+}
+.team-header p::after {
+	position: absolute;
+	content: '';
+	width: 50px;
+	height: 2px;
+	background: #655c80;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 40px;
+	z-index: 110;
+}
+.team-img {
+	padding-bottom: 65px;
+}
+.team-card {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.team-card h5 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+.team-card p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+}
+.team-footer p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+}
+.team-footer a {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #00e0d0;
+	border: 2px solid #00e0d0;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	margin-top: 10px;
+	display: inline-block;
+	text-decoration: none;
+}
+/* team part end */
+/* project part start */
+.project-head {
+	padding: 70px 0px;
+}
+.project-head h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.project-head p {
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000;
+}
+.project-btn{
+	padding: 70px 0px;
+}
+.project-btn a {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #00e0d0;
+	border: 2px solid #00e0d0;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	display: inline-block;
+}
+/* project part end */
 
 /* font-family: 'Hammersmith One', sans-serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif; */
-
-/* banner part css end */
