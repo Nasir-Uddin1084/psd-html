@@ -32,4 +32,21 @@ $(document).ready(function () {
 		titleattr: 'data-title',
 		spinner: 'rotating - plane',
 	});
+	// team2 part
+
+	$('.team2-slider-text').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		fade: true,
+		asNavFor: '.team2-slider-img',
+	});
+	$('.team2-slider-img').slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		asNavFor: '.team2-slider-text',
+		dots: false,
+		centerMode: true,
+		focusOnSelect: true,
+	});
 });
