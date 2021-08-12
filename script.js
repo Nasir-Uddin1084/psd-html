@@ -32,21 +32,42 @@ $(document).ready(function () {
 		titleattr: 'data-title',
 		spinner: 'rotating - plane',
 	});
+	// venobox for team img
+	$('.venobox').venobox({
+		framewidth: '440px',
+		frameheight: '460px',
+		border: '5px',
+		bgcolor: '#ffffff',
+		titleattr: 'data-title',
+	});
+	//team-slider
+	$('.team-slider').slick({
+		infinite: true,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 500,
+		arrows: false,
+	});
 	// team2 part
-
-	$('.team2-slider-text').slick({
+	$('.slider-team2-text').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows: false,
 		fade: true,
-		asNavFor: '.team2-slider-img',
+		asNavFor: '.slider-team2-img',
 	});
-	$('.team2-slider-img').slick({
-		slidesToShow: 3,
+	$('.slider-team2-img').slick({
+		slidesToShow: 5,
 		slidesToScroll: 1,
-		asNavFor: '.team2-slider-text',
+		asNavFor: '.slider-team2-text',
+		prevArrow: '.arrow-left',
+		nextArrow: '.arrow-right',
 		dots: false,
 		centerMode: true,
+		centerPadding: '0px',
 		focusOnSelect: true,
+		autoplay: true,
+		autoplaySpeed: 1500,
 	});
 });
